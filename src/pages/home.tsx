@@ -31,9 +31,9 @@ export default function Home() {
             >
               <div className="center gap-2">
                 <Github size={20} className="text-main/70" />
-                <p className="text-sm">Check Github</p>
+                <p className="text-sm">Use Template</p>
               </div>
-              <ArrowRight size={20} />
+              <ArrowRight size={20} className="text-main/70" />
             </a>
           </div>
           <h1 className="text-6xl md:leading-[80px] leading-[60px] font-bold text-transparent bg-clip-text bg-gradient-to-r from-main to-main/70 dark:to-main/50">
