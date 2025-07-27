@@ -30,15 +30,18 @@ export default function Home() {
               className="border border-line rounded-full bg-secondary/70 px-4 py-2 center gap-20 inline-flex "
             >
               <div className="center gap-2">
-                <Github size={20} className="text-main/70" />
+                <Github size={18} className="text-main/70" />
                 <p className="text-sm">Use Template</p>
               </div>
               <ArrowRight size={20} className="text-main/70" />
             </a>
           </div>
-          <h1 className="text-6xl md:leading-[80px] leading-[60px] font-bold text-transparent bg-clip-text bg-gradient-to-r from-main to-main/70 dark:to-main/50">
-            My Reactjs Template
-          </h1>
+          <div className="space-y-2">
+            <h1 className="text-6xl md:leading-[80px] leading-[60px] font-bold text-transparent bg-clip-text bg-gradient-to-r from-main to-main/70 dark:to-main/50">
+              My Reactjs Template
+            </h1>
+            <p className="text-muted text-sm">With typescript.</p>
+          </div>
 
           <ul className="center flex-wrap gap-2">
             {libraries.map((library) => (
