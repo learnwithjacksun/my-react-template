@@ -30,3 +30,14 @@ interface SelectWithIconProps
     value: string;
   }[];
 }
+
+interface SelectWithoutIconProps
+  extends React.SelectHTMLAttributes<HTMLSelectElement> {
+  label?: string;
+  error?: string;
+  defaultValue?: string;
+  options: {
+    label: string;
+    value: string;
+  }[];
+}
